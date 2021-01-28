@@ -1,1 +1,1 @@
-1) 
+1) Since `i` was initialized using `var`, this mean that `i` does not have block scope. As a result, even though `i` is initalized within the for loop, it can still be accessed outside of that for loop. So, the value of `i` will be printed, which is representative of the length of `prices` - 1.
