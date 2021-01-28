@@ -12,8 +12,13 @@
 12) On the call `discountPrices([100, 200, 300], .5)` the function will not return any values because an error will occur. This is because `discounted` and `finalPrice` are both initialized using `const`, however their values are attempted to being changed in the following for loop. This will cause an error stating that this variable cannot be reassigned. 
 13) a) `student.name` b) `student['Grad Year']` c) `student.greeting()` d) `student['Favorite Teacher'].name` e) `student.courseLoad[0]`
 14) 
-* a) 
-
-
+* a) '32'. If the the binary `+` is applied to a string, it concatenates them. If any of the operands is a string, the other one is converted to a string as well. As a result, the 2 is converted to a '2' and is concatenates to the string '3' to result in '32'.
+* b) 1. If subtraction is applied and one of the operands is a number, the other operand will be converted to a number as well. Therefore, '3' becomes 3 and is subtracted by 2, which is results in the number 1.
+* c) 3. The `+` will perform addition and null will be converted to its number value 0. As a result, the equation is now simple addition 3 + 0 = 3.
+* d) '3null'. If the the binary `+` is applied to a string, it concatenates them. If any of the operands is a string, the other one is converted to a string as well. As a result, the null is converted to a 'null' and is concatenates to the string '3' to result in '3null'.
+* e) 4. The `+` will perform addition and true will be converted to its boolean number value 1. As a result, the equation is now simple addition 1 + 3 = 4.
+* f) 0. The `+` will perform addition and false will be converted to its boolean number value 0 and null will be converted to its number value 0. As a result, the equation is now simple addition 0 + 0 = 0.
+* g) '3undefined'. If the the binary `+` is applied to a string, it concatenates them. If any of the operands is a string, the other one is converted to a string as well. As a result, the undefined is converted to a 'undefined' and is concatenates to the string '3' to result in '3undefined'.
+* h) NaN. 
 
 
