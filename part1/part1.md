@@ -10,10 +10,9 @@
 10) At Line 12, a reference error will occur because `discountedPrice` was initialized using `const` in a for loop block. As a result, the scope of `discountedPrice` is confined to the for loop block and cannot be accessed outside of it. So, at Line 12 the reference error will state that it cannot find the variable `discountedPrice`. 
 11) An error will occur due to `finalPrice` being initialized with `const` and in the for loop, there is a line trying to set this const variable's value to another value. When a variable is initialized with `const`, its value cannot be changed. However in the for loop this being attempted, as a result this will cause a error due to trying to change the value of a `const` variable.
 12) On the call `discountPrices([100, 200, 300], .5)` the function will not return any values because an error will occur. This is because `discounted` and `finalPrice` are both initialized using `const`, however their values are attempted to being changed in the following for loop. This will cause an error stating that this variable cannot be reassigned. 
-13)
-* a) `student.name`
-* b) `student['Grad Year']`
-* c) `
+13) a) `student.name` b) `student['Grad Year']` c) `student.greeting()` d) `student['Favorite Teacher'].name` e) `student.courseLoad[0]`
+14) 
+* a) 
 
 
 
