@@ -19,6 +19,7 @@
 * e) 4. The `+` will perform addition and true will be converted to its boolean number value 1. As a result, the equation is now simple addition 1 + 3 = 4.
 * f) 0. The `+` will perform addition and false will be converted to its boolean number value 0 and null will be converted to its number value 0. As a result, the equation is now simple addition 0 + 0 = 0.
 * g) '3undefined'. If the the binary `+` is applied to a string, it concatenates them. If any of the operands is a string, the other one is converted to a string as well. As a result, the undefined is converted to a 'undefined' and is concatenates to the string '3' to result in '3undefined'.
-* h) NaN. 
+* h) NaN. The subtraction will cause both operands to be converted to numerical values. Here "3" would be converted to 3 and undefined does not have a numerical value so this comes out to be NaN. This equation simplifies to 3 - NaN, resulting in a NaN value. 
+
 
 
