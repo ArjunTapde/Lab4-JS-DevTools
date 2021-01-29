@@ -4,13 +4,17 @@ Screenshot of breakpoints:
 
 Screenshot of watch expressions:  
 ![](./Part3-WatchExpressions.png)
+![](./Part3-WatchExpressions-Results.png)
   
 What was the bug?:   
 The bug was that `num1` and `num2` were both fetched as type string, so when the `+` was being applied on these operands it was concatenating these strings instead of actually athremitcally adding these numbers.
   
 
 How would you fix it?:  
-
+I would fix it by using the ParseInt() method on the string parameters num1 & num2 that are passed into the calculateSum function, to parse these strings to integers. This fix can been seen below in the pictures.  
+![](./Part3-FixedCode.png)    
+![](./Part3-FixedCode-Proof.png)
+  
 
   
 Part 2:
