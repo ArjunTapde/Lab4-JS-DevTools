@@ -23,5 +23,10 @@
 15)
 * a) True. When comparing values of different types, JS will convert the values to numbers. So in this equation the '2' will convert to the integer 2. This equation then becomes 2 > 1, which is a true statment. Therefore, the output is true.
 * b) False. In JS when you are comparing strings, you need to use lexographical ordering. In lexographical ordering, '2' is greater than '12' so therefore the statement '2' < '12' is false, as outputted by JS.
-* c) 
+* c) True. When comparing values of different types, JS will convert the values to numbers. So in this equation the '2' will convert to the integer 2. This equation then becomes 2 == 2, which is a true statment. Therefore, the output is true.
+* d) False. The `===` is a strict equality operator that will check the equality without any type conversion. So, if operands are of different types, then `===` will imediately return false. 2 === '2' are operands of two different types, therefore the statement is false, as returned by JS.
+* e) False. When comparing values of different types, JS will convert the values to numbers. So in this equation true will convert to the boolean integer 1. This equation then becomes 1 == 2, which is a false statment. Therefore JS outputs false.
+* f) True. The `===` is a strict equality operator that will check the equality without any type conversion. In this case we have `Boolean(2)` which will convert 2 to true. This simplifies the equation to 2 === 2, and since both are integers and the same value this outputs true.
+16) The `==` and `===` are two different operators, but both used to check equality. Where `==` does type conversion, `===` does not. `==` will ignore the type of a variable and check if the values are equal, but `===` will check to see if the type and value of both operands are equal. 
+17) 
 
