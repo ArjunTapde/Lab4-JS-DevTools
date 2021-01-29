@@ -20,6 +20,8 @@
 * f) 0. The `+` will perform addition and false will be converted to its boolean number value 0 and null will be converted to its number value 0. As a result, the equation is now simple addition 0 + 0 = 0.
 * g) '3undefined'. If the the binary `+` is applied to a string, it concatenates them. If any of the operands is a string, the other one is converted to a string as well. As a result, the undefined is converted to a 'undefined' and is concatenates to the string '3' to result in '3undefined'.
 * h) NaN. The subtraction will cause both operands to be converted to numerical values. Here "3" would be converted to 3 and undefined does not have a numerical value so this comes out to be NaN. This equation simplifies to 3 - NaN, resulting in a NaN value. 
-
-
+15)
+* a) True. When comparing values of different types, JS will convert the values to numbers. So in this equation the '2' will convert to the integer 2. This equation then becomes 2 > 1, which is a true statment. Therefore, the output is true.
+* b) False. In JS when you are comparing strings, you need to use lexographical ordering. In lexographical ordering, '2' is greater than '12' so therefore the statement '2' < '12' is false, as outputted by JS.
+* c) 
 
